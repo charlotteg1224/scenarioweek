@@ -29,22 +29,21 @@ def main():
     with st.container():
         st.markdown(
             """
-            <div style='background-color: white; padding: 10px;'>
+            <div style='background-color: white; padding: 1px;'>
             <h1 style='font-family:Optima;color: #8B4513; text-align: center;'>Jorge & Jeff</h1>
             <p style='font-family: Optima;color: #8B4513; text-align: center; font-size: 20px;'> 
-            <a style='color: #8B4513; text-decoration: none;' href='/'>Homepage</a> | 
-            <a style='color: #8B4513; text-decoration: none;' href='/clothing'>Clothing</a> | 
-            <a style='color: #8B4513; text-decoration: none;' href='/about'>About</a> | 
-            <a style='color: #8B4513; text-decoration: none;' href='https://georginapalmer-teampage-teampage-1k7d1b.streamlit.app' target='_blank'>Team</a>
+            <a style='color: #8B4513; text-decoration: none;' href='https://charlotteg1224-scenarioweek-homepage-zb4jfq.streamlit.app/'target='_blank'>Home</a> | 
+            <a style='color: #8B4513; text-decoration: none;' href=''target='_blank'>Search</a> | 
+            <a style='color: #8B4513; text-decoration: none;' href=''target='_blank'>Ready To Wear</a> | 
+            <a style='color: #8B4513; text-decoration: none;' href='https://rajatk21-sw-doggy-pe2mzu.streamlit.app/' target='_blank'>Team</a> |
+            <a style='color: #8B4513; text-decoration: none;' href='https://georginapalmer-contactus-streamlitcontactus-49oqai.streamlit.app/'target='_blank'>Contact</a> 
             </p>
             </div>
             """,
             unsafe_allow_html=True
         )
-
-
 if __name__ == '__main__':
-    main()
+     main()
 
 #images on Homepage 
 image2 = Image.open('oui.jpeg')
